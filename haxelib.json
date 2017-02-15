@@ -1,0 +1,14 @@
+{
+  "name"         :  "sortablejs.npm",
+  "url"          :  "",
+  "license"      :  "BSD",
+  "tags"         :  ["nodejs"],
+  "description"  :  "Exters for sortablejs | RubaXa/Sortable",
+  "version"      :  "0.0.0-alpha",
+  "classPath"    :  "lib",
+  "releasenote"  :  "Initial work",
+  "contributors" :  ["jonasmalacofilho", "protocubo"],
+  "dependencies" :  {
+  }
+}
+
