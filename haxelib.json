@@ -1,12 +1,12 @@
 {
   "name"         :  "sortablejs.npm",
-  "url"          :  "",
+  "url"          :  "https://github.com/protocubo/sortablejs.npm.hx",
   "license"      :  "BSD",
   "tags"         :  ["nodejs"],
-  "description"  :  "Exters for sortablejs | RubaXa/Sortable",
+  "description"  :  "Externs for sortablejs | RubaXa/Sortable",
   "version"      :  "0.0.2-alpha",
   "classPath"    :  "lib",
-  "releasenote"  :  "Initial work",
+  "releasenote"  :  "Only generate inlined casts",
   "contributors" :  ["jonasmalacofilho", "protocubo"],
   "dependencies" :  {
   }
