@@ -13,7 +13,7 @@ typedef Pixels = Int;
 typedef GroupPullFunction = Element -> ?Element -> GroupPullOptions;
 
 abstract GroupPullOptions(Dynamic) from Bool to Bool from GroupPullFunction to GroupPullFunction to String {
-	@:from static inline function fromClone(keyword:Keyword):GroupPullOptions
+	@:from @:extern static inline function fromClone(keyword:Keyword):GroupPullOptions
 	{
 		if (keyword != "clone") throw "Only 'clone' allowed";
 		return cast keyword;
@@ -37,7 +37,7 @@ typedef CompleteGroupOptions = {
 
 @:forward
 abstract GroupOptions(CompleteGroupOptions) from CompleteGroupOptions to CompleteGroupOptions {
-	@:from static inline function fromName(name:String)
+	@:from @:extern static inline function fromName(name:String)
 		return { name:name, pull:true, put:true };
 }
 
