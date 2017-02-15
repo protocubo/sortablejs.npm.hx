@@ -4,7 +4,7 @@
   "license"      :  "BSD",
   "tags"         :  ["nodejs"],
   "description"  :  "Exters for sortablejs | RubaXa/Sortable",
-  "version"      :  "0.0.0-alpha",
+  "version"      :  "0.0.1-alpha",
   "classPath"    :  "lib",
   "releasenote"  :  "Initial work",
   "contributors" :  ["jonasmalacofilho", "protocubo"],
